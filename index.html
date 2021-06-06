@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,51 @@
         <title>Portfolio</title>
 
         <!-- Bootstrap style -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
         <!-- FontAwsome -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
         <!-- Customize Style -->
         <link rel="stylesheet" href="css/style.css">
     </head>
+
     <body>
+
         <!-- Start MAin Section -->
         <div class="main">
             <!-- Start Navbar -->
-            <nav class="navbar">
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="Images/m 1.svg" alt="" width="50" height="50" class="align-text-top">
+                        <img src="Images/m.svg" alt="" width="50" height="50" class="align-text-top">
                         Al-Doukhi
                     </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">INTEREST</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">EXPERIANCE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GALLERY</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <!-- End Navbar -->
-            
-            <!-- Start Main Heading -->
+
+            <!-- Start Main Title -->
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
@@ -46,102 +68,188 @@
                     </div>
                 </div>
             </div>
-            <!-- End Main Heading -->
-        
-            <!-- Start Interest -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner container">
-                    <h1 class="main-head">My Interests</h1>
-                    <div class="carousel-item active">
-                        <div class="row interest justify-content-center">
-                            <div class="card mb-3 col-8">
-                                <div class="row g-0">
-                                    <div class="col-md-4">
-                                        <img src="Images/website.png" alt="..." width="80%">
+            <!-- End Main Title -->
+        </div>
+        <!-- End Main Section -->
+
+        <!-- Start Interest -->
+        <div class="main-section interest">
+            <div class="container">
+                <h1 class="main-head">My Interests</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row interest justify-content-center">
+                                <div class="card col-8">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="Images/website.png" alt="..." width="80%">
+                                        </div>
+                                        <div class="col-md-8 d-flex align-items-center">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Coding Website</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a
+                                                    natural
+                                                    lead-in to additional
+                                                    content. This content is a little bit longer.</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-md-8 d-flex align-items-center">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Coding Website</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                                lead-in to additional
-                                                content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row interest justify-content-center ">
+                                <div class="card col-8">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="Images/mobile-app-2.png" alt="..." width="80%">
+                                        </div>
+                                        <div class="col-md-8 d-flex align-items-center">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Coding Mobile Application</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a
+                                                    natural
+                                                    lead-in to additional
+                                                    content. This content is a little bit longer.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row interest justify-content-center">
+                                <div class="card col-8">
+                                    <div class="row g-0">
+                                        <div class="col-md-4">
+                                            <img src="Images/coding.png" alt="..." width="80%">
+                                        </div>
+                                        <div class="col-md-8 d-flex align-items-center">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Coding Scripts </h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a
+                                                    natural
+                                                    lead-in to additional
+                                                    content. This content is a little bit longer.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row interest justify-content-center ">
-                            <div class="card mb-3 col-8">
-                                <div class="row g-0">
-                                    <div class="col-md-4">
-                                        <img src="Images/mobile-app-2.png" alt="..." width="80%">
-                                    </div>
-                                    <div class="col-md-8 d-flex align-items-center">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Coding Mobile Application</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                                lead-in to additional
-                                                content. This content is a little bit longer.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <hr class="divider" />
+            </div>
+        </div>
+        <!-- End Interest -->
+
+        <!-- Start my Experince -->
+        <div class="main-section experiance">
+            <div class="container">
+                <h1 class="main-head">My Experince</h1>
+                <div class="row featurette d-flex align-items-center">
+                    <div class="col-md-7 ">
+                        <h2 class="featurette-heading">Experiance on: <span class="text-muted">HTML&CSS</span></h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro, quos
+                            perspiciatis aliquid delectus illum soluta earum fugiat. Quibusdam voluptates dolorum error
+                            temporibus a omnis ex libero hic dignissimos minus.</p>
                     </div>
-                    <div class="carousel-item">
-                        <div class="row interest justify-content-center">
-                            <div class="card mb-3 col-8">
-                                <div class="row g-0">
-                                    <div class="col-md-4">
-                                        <img src="Images/coding.png" alt="..." width="80%">
-                                    </div>
-                                    <div class="col-md-8 d-flex align-items-center">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Coding Scripts </h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a natural
-                                                lead-in to additional
-                                                content. This content is a little bit longer.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                            style="width: 500px; height: 500px;" src="Images/undraw_static_website_0107.svg"
+                            data-holder-rendered="true">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <hr class="divider" />
+                <div class="row featurette d-flex align-items-center">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Experiance on: <span class="text-muted">Javascript Framework</span>
+                        </h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ullam adipisci
+                            optio hic at veniam labore similique nesciunt, quaerat rem! Hic ducimus commodi recusandae porro
+                            aperiam id suscipit asperiores! Eveniet!</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500"
+                            src="Images/undraw_JavaScript_frameworks_8qpc.svg" data-holder-rendered="true"
+                            style="width: 500px; height: 500px;">
+                    </div>
+                </div>
+                <hr class="divider" />
             </div>
-            <!-- End Interest -->
+
         </div>
-        <!-- End MAin Section -->
-          <!-- Start Footer -->
-  <footer class="container d-flex justify-content-between flex-wrap p-2">
-    <p class="footer-title pe-3">Copyright <span>Meshari's Company</span> © 2021</p>
-    <div class="social-media ps-3">
-      <a href="#">
-        <i class="fa fa-twitter fa-lg"></i>
-      </a>
-      <a href="#">
-        <i class="fa fa-instagram fa-lg"></i>
-      </a>
-      <a href="#">
-        <i class="fa fa-youtube fa-lg"></i>
-      </a>
-    </div>
-  </footer>
+        <!-- End my Experince -->
+
+        <!-- Start my Gallery -->
+        <div class="main-section gallery">
+            <div class="container">
+                <h1 class="main-head">My Gallery</h1>
+                <!-- Gallery -->
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                        <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                        <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
+                            class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                    </div>
+                </div>
+                <!-- Gallery -->
+            </div>
+        </div>
+        <!-- End my Gallery -->
+
+        <!-- Start Footer -->
+        <footer>
+            <div class="container d-flex justify-content-between flex-wrap p-2">
+                <p class="footer-title pe-3">Copyright <span>Meshari's Company</span> © 2021</p>
+                <div class="social-media ps-3">
+                    <a href="#">
+                        <i class="fa fa-twitter fa-lg"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-youtube fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
         <!-- Scripts -->
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
-

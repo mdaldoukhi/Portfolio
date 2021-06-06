@@ -1,16 +1,25 @@
+
 /* Start Navbar */
-nav a{
-    color: #fff
+.navbar-nav li a {
+    font-size: 20px;
+    margin-right: 50px;
 }
-nav a:hover {
+nav a,
+.navbar-nav li a{
     color: #000;
     text-decoration: none;
 }
+.navbar-brand:hover,
+.navbar-nav li a:hover {
+    color: #fff;
+}
+.navbar-nav li a:focus {
+    color: #fff;
+}
 /* End Navbar */
-
 /* start MAin Section */
 .main {
-    min-height: 950px;
+    min-height: 550px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -18,7 +27,7 @@ nav a:hover {
 }
 .employee {
     align-items: center;
-    margin: 150px auto;
+    margin: 50px auto;
     color: #fff;
 }
 .employee img {
@@ -41,20 +50,52 @@ nav a:hover {
     padding-right: 70px;
     font-family: "DM Sans", sans-serif;
 }
-/* Start Interest Section */
+/* Global Style */
+.divider {
+    margin: 5rem 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.main-section {
+    margin: 15px 0 50px;
+}
 .main-head {
-    font-family: "Roboto Condensed", sans-serif;
-    color: #fff;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: #000;
     font-weight: 400;
     padding-bottom: 30px;
+    position: relative;
+    margin-bottom: 50px;
 }
+.main-head::after {
+    position: absolute;
+    content: "";
+    width: 170px;
+    height: 8px;
+    top: 60px;
+    border-radius: 10px;
+    background-color: #f4a261;
+    left: 15px;
+}
+
+/* Start Interest Section */
 .interest .card {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+    margin: 5px;
+}
+.carousel-item {
+    transition: 1.5s ease-in-out;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: #f4a261;
 }
 /* End Interest Section */
 
-/* end MAin Section */
-
+/* Start Footer Section */
+footer {
+    background-color: #264653;
+    color: #fff;
+}
 footer p span {
     color: #f88c5c
 }
@@ -66,5 +107,6 @@ footer .social-media a{
     margin-right: 10px;
 }
 footer .social-media a:hover{
-    color: #000
+    color: #fff
 }
+/* End Footer Section */
