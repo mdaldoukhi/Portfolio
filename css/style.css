@@ -1,0 +1,70 @@
+/* Start Navbar */
+nav a{
+    color: #fff
+}
+nav a:hover {
+    color: #000;
+    text-decoration: none;
+}
+/* End Navbar */
+
+/* start MAin Section */
+.main {
+    min-height: 950px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/calvin/assets/img/hero/h1_hero.png.webp);
+}
+.employee {
+    align-items: center;
+    margin: 150px auto;
+    color: #fff;
+}
+.employee img {
+    width: 327px;
+    height: 327px;
+}
+.hero__caption h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 39px;
+    margin-bottom: 39px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.hero__caption p {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+    padding-right: 70px;
+    font-family: "DM Sans", sans-serif;
+}
+/* Start Interest Section */
+.main-head {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.interest .card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+}
+/* End Interest Section */
+
+/* end MAin Section */
+
+footer p span {
+    color: #f88c5c
+}
+footer a {
+    color: #f88c5c;
+    text-decoration: none;
+}
+footer .social-media a{
+    margin-right: 10px;
+}
+footer .social-media a:hover{
+    color: #000
+}
